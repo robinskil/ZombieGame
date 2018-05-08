@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Robin/source/repos/UltraAmazingZombieGame/UltraAmazingZombieGame/Content/FontVerdana.spritefont</SourceFile>
+  <SourceTime>2018-05-06T21:11:05.9843702+02:00</SourceTime>
+  <DestFile>C:/Users/Robin/source/repos/UltraAmazingZombieGame/UltraAmazingZombieGame/Content/bin/Windows/FontVerdana.xnb</DestFile>
+  <DestTime>2018-05-06T21:11:49.1058366+02:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
