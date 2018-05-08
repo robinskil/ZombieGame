@@ -14,5 +14,8 @@ namespace UltraAmazingZombieGame.Weapon.Bullet
         public Bullet(float x , float y){
 
         }
+        public Bullet(Vector2 pos){
+            
+        }
     }
 }
