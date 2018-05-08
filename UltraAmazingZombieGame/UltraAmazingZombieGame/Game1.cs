@@ -143,8 +143,9 @@ namespace UltraAmazingZombieGame
                 //camera.Move(new Vector2(0, -amountMove));
             }
             var newState = Mouse.GetState().LeftButton;
+            var mousePos = Mouse.GetState();
             if(newState == ButtonState.Released && this.oldState == ButtonState.Pressed){
-                this.player.shoot();
+                this.player.shoot(new Vector2(mousePos.X + camera.Position.X,mousePos.Y + camera.Position.Y));
             }
             this.oldState = newState;
             //Correcting camera position

@@ -27,7 +27,7 @@ namespace UltraAmazingZombieGame.Weapon
         }
         public abstract void shoot(SpriteBatch spritebatch , Vector2 playerPos);
         //TEST SHOOT NO ARGUMENTS
-        public abstract void shoot();
+        public abstract void shoot(Vector2 target);
         public abstract void reload();
         public abstract void drawWeapon(SpriteBatch spritebatch);
         public abstract void weaponPickedUp();

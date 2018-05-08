@@ -108,9 +108,9 @@ namespace UltraAmazingZombieGame.Entity
             position = new Vector2(this.position.X, this.position.Y - 2);
         }
         
-        public void shoot(){
+        public void shoot(Vector2 target){
             if(weapons[0] != null && weapons[0].bulletsInMagazine > 0){
-                weapons[0].shoot();
+                weapons[0].shoot(target);
             } else {
                 weapons[0].reload();
             }
